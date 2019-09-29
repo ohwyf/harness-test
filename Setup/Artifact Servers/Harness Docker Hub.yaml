@@ -1,9 +1,6 @@
 harnessApiVersion: '1.0'
-type: GIT
-branch: master
-keyAuth: false
-password: safeharness:5f50vgpHRWqAIXgd1XEQYw
-url: https://github.com/ohwyf/harness-test.git
+type: DOCKER
+url: https://registry.hub.docker.com/v2/
 usageRestrictions:
   appEnvRestrictions:
   - appFilter:
@@ -16,4 +13,3 @@ usageRestrictions:
     envFilter:
       filterTypes:
       - NON_PROD
-username: ohwyf
